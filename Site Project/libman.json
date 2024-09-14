@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "defaultProvider": "filesystem",
+  "libraries": [
+    {
+      "library": "C:\\Users\\JustUser\\Desktop\\assets\\",
+      "destination": "wwwroot/lib/assets/"
+    },
+    {
+      "library": "C:\\Users\\JustUser\\Desktop\\css",
+      "destination": "wwwroot/lib/css/"
+    },
+    {
+      "library": "C:\\Users\\JustUser\\Desktop\\js",
+      "destination": "wwwroot/lib/js/"
+    }
+  ]
+}
