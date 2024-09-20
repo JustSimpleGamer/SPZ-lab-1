@@ -52,6 +52,10 @@
     --bs-dark-rgb: 33, 37, 41;
     --bs-white-rgb: 255, 255, 255;
     --bs-gray-rgb: 128, 128, 128;
+    --bs-milk_gray-rgb: 230, 230, 230;
+    --bs-light_gray-rgb: 72, 72, 72;
+    --bs-dark_gray-rgb: 50, 50, 50;
+    --bs-dark_gray_lighted-rgb: 55, 55, 55;
     --bs-black-rgb: 0, 0, 0;
     --bs-body-color-rgb: 33, 37, 41;
     --bs-body-bg-rgb: 255, 255, 255;
@@ -9104,6 +9108,26 @@ textarea.form-control-lg {
 .bg-gray {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-gray-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-milk_gray {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-milk_gray-rgb), var(--bs-bg-opacity)) !important;
+}
+
+bg-light_gray {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light_gray-rgb), var(--bs-bg-opacity)) !important;
+}
+
+bg-dark_gray {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark_gray-rgb), var(--bs-bg-opacity)) !important;
+}
+
+bg-dark_gray_lighted {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark_gray_lighted-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
